@@ -13,15 +13,14 @@ public class Simple {
 
     public static void main(String[] args) {
 
-       Xirta.LogHandler.addLog("Hello Xirta!");
-       Xirta.LogHandler.addLog("Hello User!");
-       Xirta.LogHandler.Output(money(5));
+       Xirta.LogHandler.IO(money(5),5,"Money");
 
 
 
     }
 
     public static int money(int x){
+    //    x+=5;
         return x;
     }
 }
